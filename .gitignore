@@ -1,0 +1,31 @@
+# Secrets and local config (never commit)
+.env
+.env.*
+*.pem
+*.p12
+*.key
+credentials.json
+secrets.*
+.npmrc
+.netrc
+
+# Invoices, receipts, and other private documents
+*invoice*
+*IN_*.*pdf
+*Receipt*
+*receipt*
+
+# Local-only branding sources (site uses images/logo.png, not raw PDFs in repo)
+Orbit Logo*.pdf
+*Peacock*.pdf
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.tmp
+~$*
+
+# Optional local folders
+.cursor/
